@@ -1,0 +1,38 @@
+[{
+  "name": "Israel",
+  "capital": "Jerusalem",
+  "pop": 9500000,
+  "img": "israel.jpg"
+},{
+  "name": "USA",
+  "capital": "Washington D.C",
+  "pop": 350000000,
+  "img": "USA.jpg"
+},{
+  "name": "England",
+  "capital": "London",
+  "pop": 57000000,
+  "img": "england.jpg"
+},{
+  "name": "france",
+  "capital": "paris",
+  "pop": 1000000,
+  "img": "",
+  "date": {
+    "$date": {
+      "$numberLong": "1662969830297"
+    }
+  },
+  "__v": 0
+},{
+  "name": "Japan",
+  "capital": "Tokyo",
+  "pop": 1000000,
+  "img": "",
+  "date": {
+    "$date": {
+      "$numberLong": "1662969830297"
+    }
+  },
+  "__v": 0
+}]
