@@ -18,7 +18,7 @@ exports.createToken = (user_id) => {
   // מייצר טוקן, שם תכולה - "מטען" - שלו שזה איי די של המשתמש
   // מילה סודית שרק לנו מותר להכיר אותה
   // ותוקף  
-  let token = jwt.sign({_id:user_id},"MaorSecret",{expiresIn:"60mins"})
+  let token = jwt.sign({_id:user_id},"Shalevsecret",{expiresIn:"60mins"})
   return token;
 }
 
