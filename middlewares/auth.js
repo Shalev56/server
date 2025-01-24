@@ -20,6 +20,7 @@ exports.auth = async(req,res,next) => {
     next()
   }
   catch(err){
+    console.log(err); // Log the error to understand the issue
    return res.status(401).json({msg:"Token not valid or expired 77777777"})
   }
 }
