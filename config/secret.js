@@ -1,5 +1,3 @@
-require("dotenv").config();
-
 exports.confsecretList = {
     PORT:process.env.PORT,
     TOKEN_SECRET:process.env.TOKEN_SECRET,
