@@ -28,7 +28,7 @@ router.get("/", async (req, res) => {
 
 })
 //  הוספת איי די של יוצר הרשומה דרך הטוקן ששמור לנו מהלוג אין  
-router.post("/", auth, async (req, res) => {
+router.post("/", async (req, res) => {
   let valdiateBody = validateCountry(req.body);
   if (valdiateBody.error) {
     return res.status(400).json(valdiateBody.error.details)
