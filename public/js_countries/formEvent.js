@@ -27,7 +27,6 @@ const addNewCountry = async(_bodyData,_doApi) => {
       data:JSON.stringify(_bodyData),
       // כדי שהשרת יבין שזה ג'ייסון
       headers:{
-        'x-api-key': 'bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzkzZjE2Mzk1ZWNlODg1Yjc3YWU5YzQiLCJpYXQiOjE3Mzc5MTg1NTksImV4cCI6MTczNzkyMjE1OX0.Bn8xkrG8yJh8SCkfqaR31uy9UR7MmzBurLBLWwExaN4',
         'content-type': "application/json"
       }
     })  
